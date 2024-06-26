@@ -6,7 +6,13 @@ package tugaspbo;
 import pariwisata.*;
 import java.time.LocalDate;
 import java.util.Scanner;
+import java.util.Scanner;
+import java.util.ArrayList;
 import crud.database;
+import gui.frameUtama;
+import gui.frameObjek;
+import gui.frameKategori_objek;
+
 
 /**
  *
@@ -17,7 +23,12 @@ public class Tugaspbo {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+     public static void main(String[] args) {
+        
+      
+    
+        
+        database db = new database();
 //        tOrtu cihuy = new tOrtu();
 //        cihuy.simpanOrtu("","","","","","");
 //        cihuy.ubahOrtu("","","","","","");
